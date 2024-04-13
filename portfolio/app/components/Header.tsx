@@ -17,19 +17,19 @@ const Header = () => {
         </div>
         <div className='hidden md:flex md:items-center md:space-x-4 font-Roboto ml-auto'>
           {/* Navigation links */}
-          <a href='#about-me' className='text-black'>
+          <a href='#about-me' className='text-black hover:underline'>
             about me
           </a>
-          <a href='#portfolio' className='text-black'>
+          <a href='#portfolio' className='text-black hover:underline'>
             portfolio
           </a>
-          <a href='#skills' className='text-black'>
+          <a href='#skills' className='text-black hover:underline'>
             skills
           </a>
           <a
             href='/docs/ANA_CHIMUCO_CV_eng.pdf'
             download
-            className='text-black'
+            className='text-black hover:underline '
           >
             cv
           </a>
@@ -80,16 +80,16 @@ const Header = () => {
           </div>
           <div className='flex flex-col items-center justify-center h-full'>
             {/* Mobile navigation links */}
-            <a href='#' className='text-black hover:text-gray-400'>
+            <a href='#about-me' className='text-black hover:underline'>
               about me
             </a>
-            <a href='#' className='text-black hover:text-gray-400'>
+            <a href='#portfolio' className='text-black hover:underline'>
               portfolio
             </a>
-            <a href='#' className='text-black hover:text-gray-400'>
+            <a href='#skills' className='text-black hover:underline'>
               skills
             </a>
-            <a href='#' className='text-black hover:text-gray-400'>
+            <a href='#' className='text-black hover:underline'>
               cv
             </a>
           </div>
