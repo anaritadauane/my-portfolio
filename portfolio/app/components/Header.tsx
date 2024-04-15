@@ -27,9 +27,9 @@ const Header = () => {
             skills
           </a>
           <a
-            href='/docs/ANA_CHIMUCO_CV_eng.pdf'
-            download
-            className='text-black hover:underline '
+            href='https://drive.google.com/file/d/1ExVra3MnDjJ6L9LjvdcHEtx6I9OBmGNk/view?usp=sharing'
+            className='text-black hover:underline'
+            target='_blank'
           >
             cv
           </a>
@@ -89,7 +89,11 @@ const Header = () => {
             <a href='#skills' className='text-black hover:underline'>
               skills
             </a>
-            <a href='#' className='text-black hover:underline'>
+            <a
+              href='https://drive.google.com/file/d/1ExVra3MnDjJ6L9LjvdcHEtx6I9OBmGNk/view?usp=sharing'
+              className='text-black hover:underline'
+              target='_blank'
+            >
               cv
             </a>
           </div>
