@@ -7,14 +7,16 @@ export const Footer = () => {
         <div className='flex items-center gap-2 text-sm font-semibold md:order-2 md:gap-4 lg:text-base'>
           <Link
             className='flex h-6 items-center rounded-full hover:underline'
-            href='#'
+            href='https://www.linkedin.com/in/ana-c-044043140/'
+            target='_blank'
           >
             LinkedIn
             <span className='sr-only'>LinkedIn</span>
           </Link>
           <Link
             className='flex h-6 items-center rounded-full hover:underline'
-            href='#'
+            href='https://github.com/anaritadauane'
+            target='_blank'
           >
             GitHub
             <span className='sr-only'>GitHub</span>
