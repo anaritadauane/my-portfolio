@@ -26,6 +26,7 @@ const ProjectsList = ({ projects }: Props) => {
             <a
               href={project.website}
               className='text-sm text-gray-600 hover:no-underline underline font-thin my-1'
+              target='_blank'
             >
               {project.website}
             </a>
