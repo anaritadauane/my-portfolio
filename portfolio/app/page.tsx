@@ -17,7 +17,7 @@ const projects: Project[] = [
     name: "Gitty",
     description:
       "Gitty is a platform that which helps beginners find suitable issues to start contributing to in open-source projects hosted on GitHub.",
-    website: "www.gitty.com",
+    website: "https://gitty-nine.vercel.app/",
   },
   {
     id: 3,

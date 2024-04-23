@@ -23,7 +23,7 @@ export const Footer = () => {
           </Link>
         </div>
         <div className='text-xs text-black md:text-sm font-thin'>
-          © Ana Chimuco. All rights reserved.
+          © Ana Chimuco - 2024
         </div>
       </div>
     </footer>
